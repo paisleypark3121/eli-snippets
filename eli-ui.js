@@ -8,7 +8,7 @@
 
     function setLabel(expanded) {
       btn.innerHTML = expanded
-        ? '<span class="eli-icon" aria-hidden="true">' + ICON_BACK + '</span> Restore'
+        ? '<span class="eli-icon" aria-hidden="true">' + ICON_BACK_TEXT + '</span> Restore'
         : '<span class="eli-icon" aria-hidden="true">' + ICON_EXPAND + '</span> Expand';
       btn.setAttribute("aria-label", expanded ? "Restore layout" : "Expand to full width");
       btn.setAttribute("aria-pressed", String(expanded));
